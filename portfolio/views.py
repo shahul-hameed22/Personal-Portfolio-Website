@@ -11,5 +11,5 @@ def index(request):
 
         contacts=contact(name=name,email_ID=email_ID,message=message)
         contacts.save()
-# hello bro
+
     return render(request,'index.html')

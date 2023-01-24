@@ -12,9 +12,7 @@
 
 <body>
     <div id="header">
-        <div class="img" id="img1"><img src="images/about3.jpg" alt=""></div>
-        <div class="img" id="img2"><img src="images/About3.2.jpg" alt=""></div>
-        <div class="img" id="img3"><img src="images/About3.1.jpg" alt=""></div>
+        <div class="img" id="img1"><img src="images/background.jpg" alt=""></div>
         <div class="container">
             <nav>
                 <h1 class="name"> Shahul <span> Hameed</span></h1>
@@ -22,7 +20,7 @@
                     <li><a href="#" onclick="closemenu()">Home</a></li>
                     <li><a href="#about" onclick="closemenu()">About</a></li>
                     <li><a href="#services" onclick="closemenu()">Service</a></li>
-                    <li><a href="#portfolio" onclick="closemenu()">Portfolio</a></li>
+                    <li><a href="#portfolio" onclick="closemenu()">Projects</a></li>
                     <li><a href="#contact" onclick="closemenu()">Contact</a></li>
                     <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
                 </ul>
@@ -36,7 +34,7 @@
                     a web<br>
                     presence or an employer looking to hire, you can get in touch with me.
                 </p>
-                <a href="#contact"> <input type="button" class="btn btn2" value="Contact Me"></a>
+                <a href="images/Shahul Hameed Resume.pdf"> <input type="button" class="btn btn2" value="Download CV"></a>
             </div>
         </div>
     </div>
@@ -63,8 +61,8 @@
                     </p>
                     <div class="tab-titles">
                         <p class="tab-links active" onclick="show('skills')">Skills</p>
-                        <!-- <p class="tab-links" onclick="show('projects')">Projects</p> -->
                         <p class="tab-links" onclick="show('education')">Education</p>
+                        <p class="tab-links" onclick="show('projects')">Certificates</p>
                     </div>
                     <div class="tab-contents active" id="skills">
                         <ul>
@@ -82,14 +80,17 @@
                             </li>
                         </ul>
                     </div>
-                    <!-- <div class="tab-contents" id="projects">
+                    <div class="tab-contents" id="projects">
                         <ul>
-                            <li><span>webfvfwvwf</span><br> Developer</li>
-                            <li><span>python</span><br> Developer</li>
-                            <li><span>html</span><br> Developer</li>
-                            <li><span>css</span><br> Developer</li>
+                            <li><span>Django Framework</span><br> Python and Django Framework for Beginners Complete
+                                Course <br>Tap to Know <a href="https://www.udemy.com/certificate/UC-d3601574-0339-421f-b1f9-227ac5519954/">More!</a>
+                            </li>
+
+                            <li><span>Python Programming</span><br> Python Programming From Basics to Advance Level
+                                <br>Tap to Know <a href="https://www.udemy.com/certificate/UC-4d482e9f-2d6f-4b94-a51f-3d0227b0c300/">More!</a>
+                            </li>
                         </ul>
-                    </div> -->
+                    </div>
                     <div class="tab-contents" id="education">
                         <ul>
                             <li><span>2019-2022</span><br>
@@ -139,7 +140,8 @@
                         <p style="font-size: 15px; line-height:1.2rem; margin-top: 5px;">Electronics Service WebApp is a
                             web-based application. The aim of his project is to buld a website where customer can book
                             an appointment to repair there electronic gadgets.</p>
-                        <a href="https://github.com/shahul-hameed22/Django_project_Electronics_Service_app"><i class="fa-sharp fa-solid fa-link"></i></a>
+                        <a href="https://github.com/shahul-hameed22/Django_project_Electronics_Service_app"><i
+                                class="fa-sharp fa-solid fa-link"></i></a>
                     </div>
                 </div>
                 <div class="work">
@@ -148,7 +150,8 @@
                         <h3>Bettas Planet Web Application</h3>
                         <p style="font-size: 15px; line-height:1.2rem; margin-top: 5px;">All types of bettas available,
                             <br>
-                            Exclusively imported from Thailand</p>
+                            Exclusively imported from Thailand
+                        </p>
                         <a href=""><i class="fa-sharp fa-solid fa-link"></i></a>
                     </div>
                 </div>
@@ -160,46 +163,49 @@
                             displays the professional background of an
                             individual. It displays brief information about work experiences, education,
                             skills and contact details along with social media links.</p>
-                        <a href="https://github.com/shahul-hameed22/Personal-Portfolio-Website"><i class="fa-sharp fa-solid fa-link"></i></a>
+                        <a href="https://myportfolio0922.web.app/"><i class="fa-sharp fa-solid fa-link"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-paper-plane"></i><a
-                            href="mailto: shahul98869@gmail.com">shahul66649@gmail.com</a></p>
-                    <p><i class="fa-solid fa-phone"></i><a href="tel:6362352363">+91-6364074061</a></p>
-                    <div class="social-icons">
-                        <a href="https://github.com/shahul-hameed22"><i class="fa-brands fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/shahul-hameed-4670ab22b"><i
-                                class="fa-brands fa-linkedin"></i></a>
-                        <a href="whatsapp://send?phone=+916364074061"><i class="fa-brands fa-whatsapp"></i></a>
-                        <a href="https://instagram.com/shahul.hameed22?igshid=YmMyMTA2M2Y="><i
-                                class="fa-brands fa-instagram"></i></a>
-                    </div>
-                    <a href="images/Shahul Hameed Resume.pdf" download class="btn btn2" id="download">Download CV</a>
-                </div>
-                <div class="contact-right">
-                    <form action="#" method="post">
-                        <input type="text" name="name" placeholder="Your Name">
-                        <input type="email" name="email" placeholder="Your Email">
-                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
-                        <input type="submit" class="btn btn2" value="Submit">
-                    </form>
-                </div>
-            </div>
+    
+    <section class="footer" id="contact">
+
+        <div class="box-container">
+  
+           <div class="box">
+              <h3>quick links</h3>
+              <a class="link" href="#"> <i class="fas fa-angle-right"></i> Home</a>
+              <a class="link" href="#about"> <i class="fas fa-angle-right"></i> About</a>
+              <a class="link" href="#services"> <i class="fas fa-angle-right"></i> Services</a>
+              <a class="link" href="#portfolio"> <i class="fas fa-angle-right"></i> Projects</a>
+           </div>
+  
+           <div class="box">
+              <h3>contact info</h3>
+              <a href="tel:6364074061" class="link"> <i class="fas fa-phone"></i> +91 - 6364074061 </a>
+              <a href="tel:6363410855" class="link"> <i class="fas fa-phone"></i> +91 - 6363410855</a>
+              <a href="mailto: shahul98869@gmail.com" class="link"> <i class="fas fa-envelope"></i> shahul66649@gmail.com </a>
+              <a href="#" class="link"> <i class="fas fa-map"></i> BTM 1st Stage, Bangalore </a>
+           </div>
+  
+           <div class="box">
+              <h3>Social Links</h3>
+                <a href="https://github.com/shahulhameed200109" class="link"><i class="fa-brands fa-github"> </i><span>  GitHub Link</span></a>
+                <a href="https://www.linkedin.com/in/shahul-hameed-4670ab22b" class="link"><i
+                        class="fa-brands fa-linkedin"> </i><span>  Linkedin Link</span></a>
+                <a href="whatsapp://send?phone=+916364074061" class="link"><i class="fa-brands fa-whatsapp"> </i><span>  WhatsApp Link</span></a>
+                <a href="https://instagram.com/shahul.hameed22?igshid=YmMyMTA2M2Y=" class="link"><i
+                        class="fa-brands fa-instagram"> </i><span>  Instagram Link</span></a>
+           </div>
         </div>
+    
+     </section>
         <div class="copyright">
             <p>@Shahul Hameed. All Rights Reserved</p>
         </div>
-    </div>
-
     <script>
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");

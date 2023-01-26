@@ -799,3 +799,16 @@ nav .fa-solid {
         margin-bottom: 1rem;
     }
 }
+@media only screen and (max-width:370px),only screen and (max-height:740px){
+    .work{
+        height: 19rem;
+        width: 19rem;
+        margin-left: 0.5rem;
+    }
+    .header-text h1{
+        font-size: 1.3rem;
+    }
+    .header-text p{
+        font-size: 1.15rem;
+    }
+}

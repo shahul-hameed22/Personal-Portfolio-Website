@@ -705,7 +705,7 @@ nav .fa-solid {
     }
 }
 
-@media only screen and (max-width: 445px) {
+@media only screen and (max-width: 430px) {
     form .btn.btn2 {
         width: 27%;
     }

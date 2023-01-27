@@ -618,6 +618,10 @@ nav .fa-solid {
     #about {
         padding-bottom: 1rem;
     }
+    .work-list{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
 }
 
 @media only screen and (max-width: 861px) {
@@ -705,13 +709,7 @@ nav .fa-solid {
     }
 }
 
-@media only screen and (max-width: 877px) {
-    .contact-left h1 {
-        font-size: 45px;
-    }
-}
-
-@media only screen and (max-width: 417px) {
+@media only screen and (max-width: 472px) {
     form .btn.btn2 {
         width: 27%;
     }
@@ -778,6 +776,7 @@ nav .fa-solid {
     }
     .work-list{
         padding-left: 1.5rem;
+        padding-right: 1.5rem;
     }
     .services-list{
         padding-right: 0.5rem;
@@ -785,6 +784,9 @@ nav .fa-solid {
 }
 
 @media only screen and (max-width: 877px) {
+    .contact-left h1 {
+        font-size: 45px;
+    }
     .header-text {
         margin-top: 30%;
         margin-bottom: 55%;

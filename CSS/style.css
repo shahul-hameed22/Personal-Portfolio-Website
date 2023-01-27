@@ -800,11 +800,6 @@ nav .fa-solid {
     }
 }
 @media only screen and (max-width:370px),only screen and (max-height:740px){
-    .work{
-        height: 19rem !important;
-        width: 19rem !important;
-        margin-left: 0.5rem !important;
-    }
     .header-text h1{
         font-size: 1.3rem;
     }

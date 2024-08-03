@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import MainComponent from './components/MainComponent';
+import NavBar from './components/NavBar';
 
 function App() {
+  const [mode, setMode] = useState('dark');
+  const [btnText, setbtnText] = useState("Enable Dark Mode");
+  const [isChecked, setChecked] = useState(true);
+
+  const DarkMode = () => {
+    if (mode === 'dark') {
+      setChecked(!isChecked);
+      setTimeout(() => {
+        setMode("light");
+      }, 200);
+    } else {
+      setChecked(!isChecked);
+      setTimeout(() => {
+        setMode("dark");
+      }, 200);
+    }
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="background-container">
+      <NavBar DarkMode={DarkMode} mode={mode} isChecked={isChecked} />
+      <MainComponent mode={mode} />
     </div>
   );
 }
